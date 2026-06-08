@@ -1,0 +1,55 @@
+body{font-size: 16px;}
+header .navbar .navbar-brand img, header.side-menu .logo img, header .sidebar-nav-menu .navbar-brand img,footer .footer-logo img{max-height: none;}
+.services-box-style-01 .services-icon a > i,.feather{position: absolute; top:50%; transform: translate(-50%, -50%);}
+.btn.btn-expand-ltr span{background-color: #e86412;}
+a.text-green-hover:hover{color:#234d84;}
+.navy-color{color:#234d84;}
+.bg_navy-color{background-color: #234d84;}
+
+.orange-color{color:#E86412;}
+.bg_orange-color{background-color:#E86412;}
+.btn.btn-transparent-light-gray:hover, .btn.btn-transparent-light-gray:focus{background-color: #234d84; color:#ffffff; border-color:#234d84;}
+.no_padd{padding:0;}
+.middle_font{font-size: 40px;}
+.padding-5-px{padding:5px;}
+
+
+br.m_only{display:none;}
+@media all and (max-width:1000px){
+  br.pc_only{display:none;}  
+  .width-100{width:100% !important;}
+}
+
+.bg-gradient-jmb-custom{background-image: linear-gradient(to right top, #234d84, #0C2647);}
+.text-gradient-jmb-custom{background:linear-gradient(to right top, #234d84, #0C2647); -webkit-background-clip:text; -webkit-text-fill-color:transparent;}
+.padding-4-3-rem{padding:4rem 3rem;}
+.no_gutter{--bs-gutter-x:none;}
+.border-radius-25px{border-radius: 25px !important;}
+.width_29{width:29.5%}
+.service_con02 > .container > .row.justify-content-center{margin-top:40px;}
+
+.footer .container .row{justify-content: center;}
+.footer .col-12.col-md-7.no_padd{display:flex; justify-content: space-between;}
+.footer .col-12.col-md-7.no_padd > p{margin:0; text-align: left;}
+
+@media all and (max-width:1000px){
+  .main_visual .content .main_title br.m_only{display: block;}
+}
+@media all and (max-width:800px){
+.main_visual .content .main_title{font-size: 30px !important;}
+
+}
+
+/* 네트워크 페이지 - 같은 행 카드 높이 통일 */
+.fancy-box-item {
+    display: flex !important;
+    flex-direction: column;
+}
+.fancy-box-item .feature-box {
+    flex: 1;
+    display: flex !important;
+    flex-direction: column;
+}
+.fancy-box-item .feature-box p {
+    flex: 1;
+}
