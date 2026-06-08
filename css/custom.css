@@ -57,5 +57,5 @@ br.m_only{display:none;}
 /* 네비게이션 메뉴 글자 크기 */
 header .navbar-nav .nav-link,
 header .navbar-nav > li > a {
-    font-size: 15px !important;
+    font-size: 30px !important;
 }
